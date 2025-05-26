@@ -1,4 +1,8 @@
 {
+  "build": {
+    "installCommand": "pip install --upgrade pip setuptools wheel && pip install -r requirements.txt",
+    "buildCommand": "vercel build"
+  },
   "functions": {
     "api/*.py": {
       "runtime": "python3.9"
