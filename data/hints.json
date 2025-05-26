@@ -1,0 +1,18 @@
+{
+  "hello": [
+    "A common greeting",
+    "Synonym: hi"
+  ],
+  "world": [
+    "The planet we live on",
+    "Synonym: earth"
+  ],
+  "magic": [
+    "Supernatural powers",
+    "What wizards use"
+  ],
+  "space": [
+    "The final frontier",
+    "Where astronauts go"
+  ]
+}
