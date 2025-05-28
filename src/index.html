@@ -116,7 +116,7 @@
       letterBoxes.forEach(box => word += box.value);
       if (word.length !== 5) return alert("Enter 5 letters!");
 
-      fetch("/api/guess", {
+      fetch("https://your-backend-url.onrender.com/api/guess", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ guess: word, attempts: attemptCount })

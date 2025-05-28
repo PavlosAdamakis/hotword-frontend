@@ -17,7 +17,7 @@ function App() {
     setLoading(true)
     
     try {
-      const response = await fetch('/api/guess', {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/guess`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
